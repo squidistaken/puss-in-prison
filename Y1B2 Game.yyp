@@ -3,7 +3,6 @@
   "resourceVersion": "1.6",
   "name": "Y1B2 Game",
   "resources": [
-    {"id":{"name":"obj_balls","path":"objects/obj_balls/obj_balls.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
