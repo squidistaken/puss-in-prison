@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "GOOFY",
-  "spriteId": null,
+  "name": "obj_Wall",
+  "spriteId": {
+    "name": "Sprite3",
+    "path": "sprites/Sprite3/Sprite3.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
