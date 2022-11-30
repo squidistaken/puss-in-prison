@@ -1,20 +1,32 @@
 keyLeft = keyboard_check(ord("A"));
 keyRight = keyboard_check(ord("D"));
-keyUp = keyboard_check(ord("W"));
+keyUp = keyboard_check_pressed(ord("W"));
 
-horizontalSpeed = keyRight - keyLeft;
+horizontalSpeed = (keyRight - keyLeft) * moveSpeed;
 
-x = x + horizontalSpeed * moveSpeed;
+//horizontal collision
+if (place_meeting(x+horizontalSpeed,y,obj_Wall))
+{
+	while (!place_meeting(x+sign(horizontalSpeed),y,obj_Wall))
+	{
+	 x = x + sign(horizontalSpeed);	
+	}
+	horizontalSpeed = 0;
+}
+
+x = x + horizontalSpeed;
 
 //vertical movement
 
 verticalSpeed = verticalSpeed + grv;
 
+//jump
 if (place_meeting(x,y+verticalSpeed,obj_Wall)) && (keyUp)
 {
 	verticalSpeed = -10;
 }
 
+//vertical collsion
 if (place_meeting(x,y+verticalSpeed,obj_Wall))
 {
 	while (!place_meeting(x,y+sign(verticalSpeed),obj_Wall))
