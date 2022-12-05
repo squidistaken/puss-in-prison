@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_cameraPostion",
-  "spriteId": null,
+  "name": "obj_Button",
+  "spriteId": {
+    "name": "spr_Yellow",
+    "path": "sprites/spr_Yellow/spr_Yellow.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -23,7 +26,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
