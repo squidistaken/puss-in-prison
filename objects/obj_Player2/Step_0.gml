@@ -1,6 +1,7 @@
 keyLeft = keyboard_check(ord("A"));
 keyRight = keyboard_check(ord("D"));
 keyUp = keyboard_check_pressed(ord("W"));
+keyInteract = keyboard_check_pressed(ord("E"));
 
 horizontalSpeed = (keyRight - keyLeft) * moveSpeed;
 
