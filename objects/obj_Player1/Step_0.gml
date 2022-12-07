@@ -38,3 +38,35 @@ if (place_meeting(x,y+verticalSpeed,obj_Wall))
 }
 
 y = y + verticalSpeed;
+
+
+//carry player 2
+function carryPlayer2()
+{
+	obj_Player2.x = x
+	obj_Player2.y = y - 28
+	obj_Player2.grv = 0;
+}
+
+if (point_distance(x,y,obj_Player2.x,obj_Player2.y) < 54)
+{
+	if (keyInteract)
+	{
+		global.carrying = !global.carrying;	
+		if(!global.carrying)
+		{
+			obj_Player2.grv = 0.5;	
+		}
+	}
+}
+
+if(global.carrying)
+	{	
+		carryPlayer2();
+		moveSpeed = 3;
+	}
+	
+if(!global.carrying)
+{
+	moveSpeed = 5;	
+}

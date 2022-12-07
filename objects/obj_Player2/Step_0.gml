@@ -22,9 +22,14 @@ x = x + horizontalSpeed;
 verticalSpeed = verticalSpeed + grv;
 
 //jump
+function jump()
+{
+ verticalSpeed = -10;	
+}
+
 if (place_meeting(x,y+verticalSpeed,obj_Wall)) && (keyUp)
 {
-	verticalSpeed = -10;
+	jump();
 }
 
 //vertical collsion
@@ -38,3 +43,12 @@ if (place_meeting(x,y+verticalSpeed,obj_Wall))
 }
 
 y = y + verticalSpeed;
+
+//cancel carry
+if(global.carrying) && (keyUp)
+{
+	global.carrying = !global.carrying;	
+	grv = 0.5;
+	jump();
+}
+
