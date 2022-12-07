@@ -10,6 +10,7 @@
     {"id":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},"order":1,},
     {"id":{"name":"obj_Player2","path":"objects/obj_Player2/obj_Player2.yy",},"order":2,},
     {"id":{"name":"spr_Wall","path":"sprites/spr_Wall/spr_Wall.yy",},"order":1,},
+    {"id":{"name":"GrayboxRoom","path":"rooms/GrayboxRoom/GrayboxRoom.yy",},"order":1,},
     {"id":{"name":"obj_Player1","path":"objects/obj_Player1/obj_Player1.yy",},"order":0,},
     {"id":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},"order":6,},
     {"id":{"name":"obj_cameraLeftLimit","path":"objects/obj_cameraLeftLimit/obj_cameraLeftLimit.yy",},"order":4,},
@@ -19,7 +20,6 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
-    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
   ],
@@ -31,6 +31,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"GrayboxRoom","path":"rooms/GrayboxRoom/GrayboxRoom.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
