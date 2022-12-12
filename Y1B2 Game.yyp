@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Y1B2 Game",
   "resources": [
+    {"id":{"name":"spr_Player1_carrying","path":"sprites/spr_Player1_carrying/spr_Player1_carrying.yy",},"order":5,},
     {"id":{"name":"obj_cameraPostion","path":"objects/obj_cameraPostion/obj_cameraPostion.yy",},"order":3,},
     {"id":{"name":"spr_Player2","path":"sprites/spr_Player2/spr_Player2.yy",},"order":2,},
     {"id":{"name":"spr_Yellow","path":"sprites/spr_Yellow/spr_Yellow.yy",},"order":3,},

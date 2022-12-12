@@ -3,52 +3,63 @@ keyRight = keyboard_check(ord("D"));
 keyUp = keyboard_check_pressed(ord("W"));
 keyInteract = keyboard_check_pressed(ord("E"));
 
-horizontalSpeed = (keyRight - keyLeft) * moveSpeed;
+#region horzizontal movement/collision
 
-//horizontal collision
-if (place_meeting(x+horizontalSpeed,y,obj_Wall))
-{
-	while (!place_meeting(x+sign(horizontalSpeed),y,obj_Wall))
+	horizontalSpeed = (keyRight - keyLeft) * moveSpeed;
+
+	//horizontal collision
+	if (place_meeting(x+horizontalSpeed,y,obj_Wall))
 	{
-	 x = x + sign(horizontalSpeed);	
+		while (!place_meeting(x+sign(horizontalSpeed),y,obj_Wall))
+		{
+		 x = x + sign(horizontalSpeed);	
+		}
+		horizontalSpeed = 0;
 	}
-	horizontalSpeed = 0;
-}
 
-x = x + horizontalSpeed;
+	x = x + horizontalSpeed;
 
-//vertical movement
+#endregion
 
-verticalSpeed = verticalSpeed + grv;
+#region vertical movement/collsion
 
-//jump
-function jump()
-{
- verticalSpeed = -10;	
-}
+	//vertical movement
 
-if (place_meeting(x,y+verticalSpeed,obj_Wall)) && (keyUp)
-{
-	jump();
-}
+	verticalSpeed = verticalSpeed + grv;
 
-//vertical collsion
-if (place_meeting(x,y+verticalSpeed,obj_Wall))
-{
-	while (!place_meeting(x,y+sign(verticalSpeed),obj_Wall))
+	//jump
+	function jump()
 	{
-	 y = y + sign(verticalSpeed);	
+	 verticalSpeed = -10;	
 	}
-	verticalSpeed = 0;
-}
 
-y = y + verticalSpeed;
+	if (place_meeting(x,y+verticalSpeed,obj_Wall)) && (keyUp)
+	{
+		jump();
+	}
 
-//cancel carry
-if(global.carrying) && (keyUp)
-{
-	global.carrying = !global.carrying;	
-	grv = 0.5;
-	jump();
-}
+	//vertical collsion
+	if (place_meeting(x,y+verticalSpeed,obj_Wall))
+	{
+		while (!place_meeting(x,y+sign(verticalSpeed),obj_Wall))
+		{
+		 y = y + sign(verticalSpeed);	
+		}
+		verticalSpeed = 0;
+	}
 
+	y = y + verticalSpeed;
+
+#endregion
+
+#region being carried
+	
+	//cancel carry
+	if(global.carrying) && (keyUp)
+	{
+		global.carrying = !global.carrying;	
+		grv = 0.5;
+		jump();
+	}
+	
+#endregion
