@@ -8,9 +8,9 @@ keyInteract = keyboard_check_pressed(ord("E"));
 	horizontalSpeed = (keyRight - keyLeft) * moveSpeed;
 
 	//horizontal collision
-	if (place_meeting(x+horizontalSpeed,y,obj_Wall))
+	if (place_meeting(x+horizontalSpeed,y,obj_wall))
 	{
-		while (!place_meeting(x+sign(horizontalSpeed),y,obj_Wall))
+		while (!place_meeting(x+sign(horizontalSpeed),y,obj_wall))
 		{
 		 x = x + sign(horizontalSpeed);	
 		}
@@ -33,15 +33,15 @@ keyInteract = keyboard_check_pressed(ord("E"));
 	 verticalSpeed = -10;	
 	}
 
-	if (place_meeting(x,y+verticalSpeed,obj_Wall)) && (keyUp)
+	if (place_meeting(x,y+verticalSpeed,obj_wall)) && (keyUp)
 	{
 		jump();
 	}
 
 	//vertical collsion
-	if (place_meeting(x,y+verticalSpeed,obj_Wall))
+	if (place_meeting(x,y+verticalSpeed,obj_wall))
 	{
-		while (!place_meeting(x,y+sign(verticalSpeed),obj_Wall))
+		while (!place_meeting(x,y+sign(verticalSpeed),obj_wall))
 		{
 		 y = y + sign(verticalSpeed);	
 		}

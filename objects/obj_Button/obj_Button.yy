@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Button",
+  "name": "obj_button",
   "spriteId": {
-    "name": "spr_Yellow",
-    "path": "sprites/spr_Yellow/spr_Yellow.yy",
+    "name": "spr_button",
+    "path": "sprites/spr_button/spr_button.yy",
   },
   "solid": false,
   "visible": true,
