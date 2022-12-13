@@ -17,7 +17,6 @@ keyInteract = keyboard_check_pressed(vk_shift);
 		}
 		horizontalSpeed = 0;
 	}
-	
 	x = x + horizontalSpeed;
 	
 #endregion
@@ -52,11 +51,11 @@ keyInteract = keyboard_check_pressed(vk_shift);
 	//carry player 2
 	function carryPlayer2()
 	{
-		obj_plr2.x = x
-		obj_plr2.y = y - 64
+		obj_plr2.x = x;
+		obj_plr2.y = y - 64;
 		obj_plr2.grv = 0;
 	}
-
+	
 	if (point_distance(x,y,obj_plr2.x,obj_plr2.y) < 54) || (global.carrying)
 	{
 		if (keyInteract)

@@ -19,9 +19,37 @@ y = y + verticalSpeed;
 
 #endregion
 
-#region Horizontal 
-// Horizontal Collision
+#region Horizontal
 
+// Pushing
+
+// Checking for interaction with player objects
+if (place_meeting(x-obj_plr1.horizontalSpeed,y,obj_plr1)) || (place_meeting(x-obj_plr2.horizontalSpeed,y,obj_plr2))
+{
+	pushState = true;
+}
+
+switch (pushState)
+{
+	case true:
+		if (place_meeting(x-obj_plr1.horizontalSpeed,y,obj_plr1))
+		{
+			horizontalSpeed = obj_plr1.horizontalSpeed;
+			// Alarm = Event you can call for X amount of steps
+			alarm[0] = 1;
+		}
+		if (place_meeting(x-obj_plr2.horizontalSpeed,y,obj_plr2))
+		{
+			horizontalSpeed = obj_plr2.horizontalSpeed;
+			alarm[0] = 1;
+		}
+		break;
+	case false:
+		horizontalSpeed = 0;
+		break;
+}
+
+// Horizontal Collision
 if (place_meeting(x+horizontalSpeed,y,obj_wall))
 {
 	while (!place_meeting(x+sign(horizontalSpeed),y,obj_wall))
@@ -32,14 +60,6 @@ if (place_meeting(x+horizontalSpeed,y,obj_wall))
 	horizontalSpeed = 0;
 }
 
-// TODO - Figure out a nonjank method of pushing the object
-
 x = x + horizontalSpeed;
 
 #endregion
-
-
-
-
-
-
