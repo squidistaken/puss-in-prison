@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Player1",
+  "name": "obj_plr1",
   "spriteId": {
-    "name": "spr_Player1",
-    "path": "sprites/spr_Player1/spr_Player1.yy",
+    "name": "spr_plr1",
+    "path": "sprites/spr_plr1/spr_plr1.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Players",
+    "path": "folders/Objects/Players.yy",
   },
 }

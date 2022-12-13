@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_CCTVZone",
+  "name": "obj_cctvZone",
   "spriteId": {
     "name": "spr_CCTVZone",
     "path": "sprites/spr_CCTVZone/spr_CCTVZone.yy",
