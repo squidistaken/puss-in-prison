@@ -43,11 +43,18 @@ switch (pushState)
 			horizontalSpeed = obj_plr2.horizontalSpeed;
 			alarm[0] = 1;
 		}
+		// Ensuring obj_plr1 and obj_plr2 do not overlap with the box.
+		if (place_meeting(x-obj_plr1.horizontalSpeed,y,obj_plr1)) && (place_meeting(x-obj_plr2.horizontalSpeed,y,obj_plr2))
+		{
+			horizontalSpeed = 0;
+			alarm[0] = 1;
+		}
 		break;
 	case false:
 		horizontalSpeed = 0;
 		break;
 }
+
 
 // Horizontal Collision
 if (place_meeting(x+horizontalSpeed,y,obj_wall))
