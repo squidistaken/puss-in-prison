@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Player2",
+  "name": "obj_carryItem1",
   "spriteId": {
-    "name": "spr_Player2",
-    "path": "sprites/spr_Player2/spr_Player2.yy",
+    "name": "spr_pink_ball",
+    "path": "sprites/spr_pink_ball/spr_pink_ball.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,7 +34,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "CarryItems",
+    "path": "folders/Objects/CarryItems.yy",
   },
 }

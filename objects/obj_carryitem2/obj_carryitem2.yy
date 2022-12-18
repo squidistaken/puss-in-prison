@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Player2",
+  "name": "obj_carryitem2",
   "spriteId": {
-    "name": "spr_Player2",
-    "path": "sprites/spr_Player2/spr_Player2.yy",
+    "name": "spr_green_ball",
+    "path": "sprites/spr_green_ball/spr_green_ball.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,13 +28,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "CarryItems",
+    "path": "folders/Objects/CarryItems.yy",
   },
 }
