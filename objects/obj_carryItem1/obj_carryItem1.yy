@@ -1,32 +1,25 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_button",
+  "name": "obj_carryItem1",
   "spriteId": {
-<<<<<<< HEAD
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "name": "spr_Yellow",
-    "path": "sprites/spr_Yellow/spr_Yellow.yy",
+    "name": "spr_pink_ball",
+    "path": "sprites/spr_pink_ball/spr_pink_ball.yy",
 =======
-    "name": "spr_yellow_circle",
-    "path": "sprites/spr_yellow_circle/spr_yellow_circle.yy",
+    "name": "spr_pink_dot",
+    "path": "sprites/spr_pink_dot/spr_pink_dot.yy",
 >>>>>>> Stashed changes
-=======
-    "name": "spr_yellow_dot",
-    "path": "sprites/spr_yellow_dot/spr_yellow_dot.yy",
->>>>>>> Stashed changes
-=======
-    "name": "spr_button",
-    "path": "sprites/spr_button/spr_button.yy",
->>>>>>> 878818daf82a2e345f6d6ceea4ad0aa4d4298b79
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_carryable",
+    "path": "objects/obj_carryable/obj_carryable.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -40,12 +33,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+<<<<<<< Updated upstream
+    "name": "CarryItems",
+    "path": "folders/Objects/CarryItems.yy",
+=======
+    "name": "carry",
+    "path": "folders/Objects/carry.yy",
+>>>>>>> Stashed changes
   },
 }

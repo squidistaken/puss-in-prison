@@ -1,25 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_button",
+  "name": "obj_carryItem2",
   "spriteId": {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "name": "spr_Yellow",
-    "path": "sprites/spr_Yellow/spr_Yellow.yy",
-=======
-    "name": "spr_yellow_circle",
-    "path": "sprites/spr_yellow_circle/spr_yellow_circle.yy",
->>>>>>> Stashed changes
-=======
-    "name": "spr_yellow_dot",
-    "path": "sprites/spr_yellow_dot/spr_yellow_dot.yy",
->>>>>>> Stashed changes
-=======
-    "name": "spr_button",
-    "path": "sprites/spr_button/spr_button.yy",
->>>>>>> 878818daf82a2e345f6d6ceea4ad0aa4d4298b79
+    "name": "spr_green_dot",
+    "path": "sprites/spr_green_dot/spr_green_dot.yy",
   },
   "solid": false,
   "visible": true,
@@ -40,12 +25,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "carry",
+    "path": "folders/Objects/carry.yy",
   },
 }
