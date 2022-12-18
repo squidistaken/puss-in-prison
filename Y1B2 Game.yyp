@@ -4,16 +4,20 @@
   "name": "Y1B2 Game",
   "resources": [
     {"id":{"name":"spr_plr1_carrying","path":"sprites/spr_plr1_carrying/spr_plr1_carrying.yy",},"order":5,},
+    {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"order":7,},
+    {"id":{"name":"obj_switch","path":"objects/obj_switch/obj_switch.yy",},"order":12,},
     {"id":{"name":"obj_cameraPosition","path":"objects/obj_cameraPosition/obj_cameraPosition.yy",},"order":1,},
     {"id":{"name":"spr_plr2","path":"sprites/spr_plr2/spr_plr2.yy",},"order":2,},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},"order":3,},
     {"id":{"name":"spr_plr1","path":"sprites/spr_plr1/spr_plr1.yy",},"order":0,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
     {"id":{"name":"obj_plr2","path":"objects/obj_plr2/obj_plr2.yy",},"order":1,},
+    {"id":{"name":"spr_switch","path":"sprites/spr_switch/spr_switch.yy",},"order":8,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":1,},
     {"id":{"name":"GrayboxRoom","path":"rooms/GrayboxRoom/GrayboxRoom.yy",},"order":1,},
     {"id":{"name":"obj_plr1","path":"objects/obj_plr1/obj_plr1.yy",},"order":0,},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"order":6,},
+    {"id":{"name":"obj_doorBarrier","path":"objects/obj_doorBarrier/obj_doorBarrier.yy",},"order":11,},
     {"id":{"name":"obj_cameraLeftLimit","path":"objects/obj_cameraLeftLimit/obj_cameraLeftLimit.yy",},"order":0,},
     {"id":{"name":"obj_cctvZone","path":"objects/obj_cctvZone/obj_cctvZone.yy",},"order":7,},
     {"id":{"name":"obj_cameraRightLimit","path":"objects/obj_cameraRightLimit/obj_cameraRightLimit.yy",},"order":2,},
@@ -65,6 +69,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.0.54",
+    "IDEVersion": "2022.11.1.56",
   },
 }
