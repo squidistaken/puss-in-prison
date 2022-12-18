@@ -15,4 +15,8 @@
 
 	y = y + verticalSpeed;
 
+<<<<<<< Updated upstream
 #endregion
+=======
+#endregion
+>>>>>>> Stashed changes

@@ -4,11 +4,16 @@
   "name": "obj_carryItem1",
   "spriteId": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "name": "spr_pink_ball",
     "path": "sprites/spr_pink_ball/spr_pink_ball.yy",
 =======
     "name": "spr_pink_dot",
     "path": "sprites/spr_pink_dot/spr_pink_dot.yy",
+>>>>>>> Stashed changes
+=======
+    "name": "spr_dot_pink",
+    "path": "sprites/spr_dot_pink/spr_dot_pink.yy",
 >>>>>>> Stashed changes
   },
   "solid": false,
@@ -40,8 +45,13 @@
   "overriddenProperties": [],
   "parent": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "name": "CarryItems",
     "path": "folders/Objects/CarryItems.yy",
+=======
+    "name": "carry",
+    "path": "folders/Objects/carry.yy",
+>>>>>>> Stashed changes
 =======
     "name": "carry",
     "path": "folders/Objects/carry.yy",

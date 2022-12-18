@@ -26,8 +26,13 @@
   "overriddenProperties": [],
   "parent": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "name": "CarryItems",
     "path": "folders/Objects/CarryItems.yy",
+=======
+    "name": "carry",
+    "path": "folders/Objects/carry.yy",
+>>>>>>> Stashed changes
 =======
     "name": "carry",
     "path": "folders/Objects/carry.yy",

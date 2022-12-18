@@ -47,6 +47,7 @@ keyInteract = keyboard_check_pressed(vk_shift);
 
 #endregion
 
+<<<<<<< Updated upstream
 #region carrying mech
 
 <<<<<<< HEAD
@@ -71,10 +72,25 @@ keyInteract = keyboard_check_pressed(vk_shift);
 		obj_plr2.y = y - 64;
 		obj_plr2.grv = 0;
 >>>>>>>> 878818daf82a2e345f6d6ceea4ad0aa4d4298b79:objects/obj_plr1/Step_0.gml
-	}
-	
-	if (point_distance(x,y,obj_plr2.x,obj_plr2.y) < 54) || (global.carrying)
+=======
+#region carrying mechanic
+
+	itemNear = instance_nearest(x, y, obj_carryable); // check nearest carryable item
+
+	function carryPlayer2()
 	{
+		obj_plr2.x = x
+		obj_plr2.y = y - 64
+		obj_plr2.grv = 0;
+		global.carryingP2 = true;
+		moveSpeed = 3;
+>>>>>>> Stashed changes
+	}
+
+		
+	if (itemCarrying != noone)
+	{
+<<<<<<< Updated upstream
 		if (keyInteract)
 =======
 		obj_plr2.x = x;
@@ -166,3 +182,33 @@ keyInteract = keyboard_check_pressed(vk_shift);
 
 >>>>>>> 878818daf82a2e345f6d6ceea4ad0aa4d4298b79
 #endregion
+=======
+		if (object_get_name(itemCarrying.object_index) == "obj_plr2")
+		{			
+			carryPlayer2();	
+			show_debug_message(x);
+			if (keyInteract) //drop player 2
+			{
+				resetPlayer2Carry();
+				itemCarrying = noone; 
+			}
+		}
+		
+		else
+		{
+			scr_carryItem();
+			if (keyInteract) //drop item
+			{
+				itemCarrying.grv = 0.5;
+				itemCarrying = noone;
+			}
+		}
+	}
+
+	if (point_distance(x, y,itemNear.x,itemNear.y) < 64) && (itemCarrying == noone) && (keyInteract)
+	{
+		itemCarrying = itemNear;
+	}
+
+#endregion
+>>>>>>> Stashed changes

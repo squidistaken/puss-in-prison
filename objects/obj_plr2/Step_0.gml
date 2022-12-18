@@ -55,14 +55,23 @@ keyInteract = keyboard_check_pressed(ord("E"));
 <<<<<<< HEAD
 #region being carried
 	
+<<<<<<< Updated upstream
 	//cancel carry
 	if(global.carryingP1) && (keyUp)
 	{
 		global.carryingP1 = !global.carryingP1;	
 		grv = 0.5;
+=======
+	//jump from carry
+	if (global.carryingP2) && (keyUp)
+	{
+		resetPlayer2Carry();
+>>>>>>> Stashed changes
 		jump();
+		obj_plr1.itemCarrying = noone; 
 	}
 	
+<<<<<<< Updated upstream
 #endregion
 =======
 #region being carried and jumping
@@ -126,3 +135,6 @@ show_debug_message(object_get_name(itemNear.object_index))
 #endregion
 >>>>>>>> 878818daf82a2e345f6d6ceea4ad0aa4d4298b79:objects/obj_plr2/Step_0.gml
 >>>>>>> 878818daf82a2e345f6d6ceea4ad0aa4d4298b79
+=======
+#endregion
+>>>>>>> Stashed changes

@@ -3,6 +3,7 @@
   "resourceVersion": "1.0",
   "name": "obj_button",
   "spriteId": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -20,6 +21,10 @@
     "name": "spr_button",
     "path": "sprites/spr_button/spr_button.yy",
 >>>>>>> 878818daf82a2e345f6d6ceea4ad0aa4d4298b79
+=======
+    "name": "spr_dot_yellow",
+    "path": "sprites/spr_dot_yellow/spr_dot_yellow.yy",
+>>>>>>> Stashed changes
   },
   "solid": false,
   "visible": true,
