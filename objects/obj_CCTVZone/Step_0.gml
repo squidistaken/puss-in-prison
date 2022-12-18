@@ -1,4 +1,4 @@
-
+///@description Timer
 
 timer --;
 
@@ -9,7 +9,8 @@ if(timer == -60)
 	timer = 0
 }
 
-if ((place_meeting(x,y,obj_Player1)) || (place_meeting(x,y,obj_Player2))) && image_index == 0
+// Maybe we could change this check to be based on the item state vs image index state, in case we add more frames
+if ((place_meeting(x,y,obj_plr1)) || (place_meeting(x,y,obj_plr2))) && image_index == 0 
 {
 	game_restart();
 }

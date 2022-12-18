@@ -1,3 +1,5 @@
+///@description Setup
+
 moveSpeed = 5;
 horizontalSpeed = 0;
 verticalSpeed = 0;
