@@ -4,11 +4,16 @@
   "name": "obj_Button",
   "spriteId": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "name": "spr_Yellow",
     "path": "sprites/spr_Yellow/spr_Yellow.yy",
 =======
     "name": "spr_yellow_circle",
     "path": "sprites/spr_yellow_circle/spr_yellow_circle.yy",
+>>>>>>> Stashed changes
+=======
+    "name": "spr_yellow_dot",
+    "path": "sprites/spr_yellow_dot/spr_yellow_dot.yy",
 >>>>>>> Stashed changes
   },
   "solid": false,

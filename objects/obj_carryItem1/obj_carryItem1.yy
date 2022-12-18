@@ -3,8 +3,13 @@
   "resourceVersion": "1.0",
   "name": "obj_carryItem1",
   "spriteId": {
+<<<<<<< Updated upstream
     "name": "spr_pink_ball",
     "path": "sprites/spr_pink_ball/spr_pink_ball.yy",
+=======
+    "name": "spr_pink_dot",
+    "path": "sprites/spr_pink_dot/spr_pink_dot.yy",
+>>>>>>> Stashed changes
   },
   "solid": false,
   "visible": true,
@@ -34,7 +39,12 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
+<<<<<<< Updated upstream
     "name": "CarryItems",
     "path": "folders/Objects/CarryItems.yy",
+=======
+    "name": "carry",
+    "path": "folders/Objects/carry.yy",
+>>>>>>> Stashed changes
   },
 }
