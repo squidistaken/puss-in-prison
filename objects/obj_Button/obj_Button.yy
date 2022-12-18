@@ -3,23 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_button",
   "spriteId": {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "name": "spr_Yellow",
-    "path": "sprites/spr_Yellow/spr_Yellow.yy",
-=======
-    "name": "spr_yellow_circle",
-    "path": "sprites/spr_yellow_circle/spr_yellow_circle.yy",
->>>>>>> Stashed changes
-=======
-    "name": "spr_yellow_dot",
-    "path": "sprites/spr_yellow_dot/spr_yellow_dot.yy",
->>>>>>> Stashed changes
-=======
     "name": "spr_button",
     "path": "sprites/spr_button/spr_button.yy",
->>>>>>> 878818daf82a2e345f6d6ceea4ad0aa4d4298b79
   },
   "solid": false,
   "visible": true,
