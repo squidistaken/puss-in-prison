@@ -9,6 +9,7 @@
     {"id":{"name":"obj_cameraPosition","path":"objects/obj_cameraPosition/obj_cameraPosition.yy",},"order":1,},
     {"id":{"name":"spr_plr2","path":"sprites/spr_plr2/spr_plr2.yy",},"order":2,},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},"order":3,},
+    {"id":{"name":"scr_doorControl","path":"scripts/scr_doorControl/scr_doorControl.yy",},"order":0,},
     {"id":{"name":"spr_plr1","path":"sprites/spr_plr1/spr_plr1.yy",},"order":0,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
     {"id":{"name":"obj_plr2","path":"objects/obj_plr2/obj_plr2.yy",},"order":1,},
