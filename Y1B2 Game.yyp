@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Y1B2 Game",
   "resources": [
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     {"id":{"name":"spr_Player1_carrying","path":"sprites/spr_Player1_carrying/spr_Player1_carrying.yy",},"order":5,},
     {"id":{"name":"obj_cameraPostion","path":"objects/obj_cameraPostion/obj_cameraPostion.yy",},"order":3,},
@@ -59,6 +60,30 @@
   "Options": [
 <<<<<<< Updated upstream
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
+=======
+    {"id":{"name":"spr_plr1_carrying","path":"sprites/spr_plr1_carrying/spr_plr1_carrying.yy",},"order":5,},
+    {"id":{"name":"obj_cameraPosition","path":"objects/obj_cameraPosition/obj_cameraPosition.yy",},"order":1,},
+    {"id":{"name":"spr_plr2","path":"sprites/spr_plr2/spr_plr2.yy",},"order":2,},
+    {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},"order":3,},
+    {"id":{"name":"spr_plr1","path":"sprites/spr_plr1/spr_plr1.yy",},"order":0,},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
+    {"id":{"name":"obj_plr2","path":"objects/obj_plr2/obj_plr2.yy",},"order":1,},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":1,},
+    {"id":{"name":"GrayboxRoom","path":"rooms/GrayboxRoom/GrayboxRoom.yy",},"order":1,},
+    {"id":{"name":"obj_plr1","path":"objects/obj_plr1/obj_plr1.yy",},"order":0,},
+    {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"order":6,},
+    {"id":{"name":"obj_cameraLeftLimit","path":"objects/obj_cameraLeftLimit/obj_cameraLeftLimit.yy",},"order":0,},
+    {"id":{"name":"obj_cctvZone","path":"objects/obj_cctvZone/obj_cctvZone.yy",},"order":7,},
+    {"id":{"name":"obj_cameraRightLimit","path":"objects/obj_cameraRightLimit/obj_cameraRightLimit.yy",},"order":2,},
+    {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},"order":6,},
+    {"id":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},"order":10,},
+    {"id":{"name":"spr_CCTVZone","path":"sprites/spr_CCTVZone/spr_CCTVZone.yy",},"order":4,},
+    {"id":{"name":"rm_graybox","path":"rooms/rm_graybox/rm_graybox.yy",},"order":0,},
+  ],
+  "Options": [
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
+>>>>>>> 878818daf82a2e345f6d6ceea4ad0aa4d4298b79
     {"name":"Main","path":"options/main/options_main.yy",},
 =======
     {"id":{"name":"obj_carryable","path":"objects/obj_carryable/obj_carryable.yy",},"order":0,},
@@ -84,7 +109,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_graybox","path":"rooms/rm_graybox/rm_graybox.yy",},},
     {"roomId":{"name":"GrayboxRoom","path":"rooms/GrayboxRoom/GrayboxRoom.yy",},},
   ],
   "Folders": [
@@ -93,12 +118,17 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy","order":13,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":9,},
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Camera","folderPath":"folders/Objects/Camera.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CarryItems","folderPath":"folders/Objects/CarryItems.yy","order":6,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Players","folderPath":"folders/Objects/Players.yy","order":4,},
 >>>>>>> Stashed changes
+=======
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Camera","folderPath":"folders/Objects/Camera.yy","order":8,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Players","folderPath":"folders/Objects/Players.yy","order":9,},
+>>>>>>> 878818daf82a2e345f6d6ceea4ad0aa4d4298b79
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":10,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy","order":5,},
