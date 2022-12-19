@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_button",
   "spriteId": {
-    "name": "spr_dot_yellow",
-    "path": "sprites/spr_dot_yellow/spr_dot_yellow.yy",
+    "name": "spr_button",
+    "path": "sprites/spr_button/spr_button.yy",
   },
   "solid": false,
   "visible": true,

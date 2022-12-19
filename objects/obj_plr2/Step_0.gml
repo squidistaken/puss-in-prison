@@ -54,37 +54,12 @@ keyInteract = keyboard_check_pressed(ord("E"));
 
 #region being carried
 	
-	//jump from carry
-	if (global.carryingP2) && (keyUp)
+	//cancel carry
+	if(global.carrying) && (keyUp)
 	{
-		resetPlayer2Carry();
+		global.carrying = !global.carrying;	
+		grv = 0.5;
 		jump();
-		obj_plr1.itemCarrying = noone; 
 	}
 	
 #endregion
-
-#region carry mechanic
-
-	itemNear = instance_nearest(x, y, obj_carryable);
-	
-	if (itemCarrying != noone) 
-	{
-		scr_carryItem();
-		if (keyInteract) //drop item
-		{
-			itemCarrying.grv = 0.5;
-			itemCarrying = noone;
-		}
-	}
-
-	if (point_distance(x, y,itemNear.x,itemNear.y) < 64) && (itemCarrying == noone) && (keyInteract) && (itemNear != obj_plr1.itemCarrying)
-	{
-		itemCarrying = itemNear;
-	}
-
-#endregion
-
-
-
-

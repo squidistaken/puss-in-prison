@@ -1,4 +1,4 @@
-/// @description Event
+/// @description Insert description here
+// You can write your code in this editor
 
-// Reverting back the pushState in one tick ONLY
 pushState = false;
