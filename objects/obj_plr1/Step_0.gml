@@ -47,37 +47,47 @@ keyInteract = keyboard_check_pressed(vk_shift);
 
 #endregion
 
-#region carry
-	//carry player 2
+#region carrying mechanic
+
+	itemNear = instance_nearest(x, y, obj_carryable); // check nearest carryable item
+
 	function carryPlayer2()
 	{
-		obj_plr2.x = x;
-		obj_plr2.y = y - 64;
+		obj_plr2.x = x
+		obj_plr2.y = y - 64
 		obj_plr2.grv = 0;
+		global.carryingP2 = true;
+		moveSpeed = 3;
 	}
 	
-	if (point_distance(x,y,obj_plr2.x,obj_plr2.y) < 54) || (global.carrying)
+	if (keyInteract) && (global.carryingP2)
 	{
-		if (keyInteract)
+		resetPlayer2Carry();
+		global.carryingP2 = false;
+	}
+	
+	if ( (point_distance(x,y,obj_plr2.x,obj_plr2.y) <= 54) && (point_distance(x, y,itemNear.x,itemNear.y) >= 64) && (keyInteract) && (itemCarrying == noone) ) || (global.carryingP2) 
+	{
+		global.carryingP2 = true;
+		carryPlayer2();
+	}
+
+
+	
+	
+	if (itemCarrying != noone) && (!global.carryingP2)
+	{
+		scr_carryItem();
+		if (keyInteract) //drop item
 		{
-			global.carrying = !global.carrying;	
-			if(!global.carrying)
-			{
-				obj_plr2.grv = 0.5;	
-			}
+			itemCarrying.grv = 0.5;
+			itemCarrying = noone;
 		}
 	}
 
-	switch (global.carrying)
+	if (point_distance(x, y,itemNear.x,itemNear.y) < 64) && (itemCarrying == noone) && (keyInteract) && (itemNear != obj_plr2.itemCarrying)
 	{
-		case true:	
-			carryPlayer2();
-			moveSpeed = 3;
-			sprite_index = spr_plr1_carrying;
-			
-				
-		case false: 
-			moveSpeed = 5;
+		itemCarrying = itemNear;
 	}
 
 #endregion
