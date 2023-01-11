@@ -14,4 +14,3 @@ if ((place_meeting(x,y,obj_plr1)) || (place_meeting(x,y,obj_plr2))) && image_ind
 {
 	game_restart();
 }
-

@@ -55,6 +55,10 @@ switch (pushState)
 		break;
 }
 
+if (horizontalSpeed != 0)
+{
+	audio_play_sound(sfx_box_push,1000,0);	
+}
 
 // Horizontal Collision
 if (place_meeting(x+horizontalSpeed,y,obj_wall))

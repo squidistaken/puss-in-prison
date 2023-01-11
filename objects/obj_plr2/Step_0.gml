@@ -18,7 +18,6 @@ keyInteract = keyboard_check_pressed(ord("E"));
 	}
 
 	x = x + horizontalSpeed;
-
 #endregion
 
 #region vertical movement/collsion
@@ -35,6 +34,7 @@ keyInteract = keyboard_check_pressed(ord("E"));
 
 	if (place_meeting(x,y+verticalSpeed,obj_wall)) && (keyUp)
 	{
+		audio_play_sound(sfx_plr2_jump_1,1000,0);
 		jump();
 	}
 
@@ -58,6 +58,7 @@ keyInteract = keyboard_check_pressed(ord("E"));
 	if (global.carryingP2) && (keyUp)
 	{
 		resetPlayer2Carry();
+		audio_play_sound(sfx_plr2_jump_2,1000,0);
 		jump();
 		obj_plr1.itemCarrying = noone; 
 	}
