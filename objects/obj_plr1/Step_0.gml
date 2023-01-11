@@ -68,6 +68,7 @@ keyInteract = keyboard_check_pressed(vk_shift);
 		carryPlayer2();
 		if (keyInteract) 
 		{
+			audio_play_sound(sfx_plr1_land,100,0);
 			resetPlayer2Carry();
 			pauseFrame = true;
 		}
