@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sfx_plr2_jump",
+  "name": "sfx_plr2_jump_2",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfx_plr2_jump.wav",
-  "duration": 1.088,
+  "soundFile": "sfx_plr2_jump_2.wav",
+  "duration": 1.056,
   "parent": {
     "name": "Player 2",
     "path": "folders/Sounds/Player 2.yy",

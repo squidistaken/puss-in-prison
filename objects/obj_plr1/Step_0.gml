@@ -29,6 +29,7 @@ keyInteract = keyboard_check_pressed(vk_shift);
 	//jump
 	if (place_meeting(x,y+verticalSpeed,obj_wall)) && (keyUp)
 	{
+		audio_play_sound(sfx_plr1_jump,1000,0);
 		verticalSpeed = -10;
 	}
 
@@ -38,7 +39,7 @@ keyInteract = keyboard_check_pressed(vk_shift);
 	{
 		while (!place_meeting(x,y+sign(verticalSpeed),obj_wall))
 		{
-			y = y + sign(verticalSpeed);	
+			y = y + sign(verticalSpeed);
 		}
 		verticalSpeed = 0;
 	}
@@ -75,6 +76,7 @@ keyInteract = keyboard_check_pressed(vk_shift);
 	if (!place_meeting(x,y - 70, obj_wall)) && (place_meeting(x,y,obj_plr2)) && (keyInteract) && (itemCarrying == noone) && (!pauseFrame) && ((!place_meeting(x,y,itemNear)) || (itemNear == obj_plr2.itemCarrying))
 	{
 		global.carryingP2 = true;
+		audio_play_sound(sfx_plr1_carry_plr2,100,0);
 	}
 
 
