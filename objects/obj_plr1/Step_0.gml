@@ -53,28 +53,32 @@ keyInteract = keyboard_check_pressed(vk_shift);
 
 	function carryPlayer2()
 	{
-		obj_plr2.x = x
-		obj_plr2.y = y - 64
+		obj_plr2.x = x;
+		obj_plr2.y = y - 110;
 		obj_plr2.grv = 0;
-		global.carryingP2 = true;
 		moveSpeed = 3;
+		sprite_index = spr_plr1_carrying;
 	}
 	
-	if (keyInteract) && (global.carryingP2)
+
+	
+	if (global.carryingP2)
 	{
-		resetPlayer2Carry();
-		global.carryingP2 = false;
+		carryPlayer2();
+		if (keyInteract) 
+		{
+			resetPlayer2Carry();
+			pauseFrame = true;
+		}
 	}
 	
-	if ( (point_distance(x,y,obj_plr2.x,obj_plr2.y) <= 54) && (point_distance(x, y,itemNear.x,itemNear.y) >= 64) && (keyInteract) && (itemCarrying == noone) ) || (global.carryingP2) 
+	if (!place_meeting(x,y - 70, obj_wall)) && (place_meeting(x,y,obj_plr2)) && (keyInteract) && (itemCarrying == noone) && (!pauseFrame) && ((!place_meeting(x,y,itemNear)) || (itemNear == obj_plr2.itemCarrying))
 	{
 		global.carryingP2 = true;
-		carryPlayer2();
 	}
 
 
-	
-	
+
 	if (itemCarrying != noone) && (!global.carryingP2)
 	{
 		scr_carryItem();
@@ -82,12 +86,17 @@ keyInteract = keyboard_check_pressed(vk_shift);
 		{
 			itemCarrying.grv = 0.5;
 			itemCarrying = noone;
+			pauseFrame = true;
 		}
 	}
 
-	if (point_distance(x, y,itemNear.x,itemNear.y) < 64) && (itemCarrying == noone) && (keyInteract) && (itemNear != obj_plr2.itemCarrying)
+
+	//pickup item
+	if (!pauseFrame) && (place_meeting(x,y,itemNear)) && (itemCarrying == noone) && (keyInteract) && (itemNear != obj_plr2.itemCarrying)
 	{
 		itemCarrying = itemNear;
 	}
 
 #endregion
+
+pauseFrame = false;
