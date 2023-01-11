@@ -66,7 +66,7 @@ keyInteract = keyboard_check_pressed(ord("E"));
 
 #region carry mechanic
 
-	itemNear = instance_nearest(x, y, obj_carryable);
+	itemNear = instance_nearest(x, y, obj_par_item);
 	
 	if (itemCarrying != noone) 
 	{

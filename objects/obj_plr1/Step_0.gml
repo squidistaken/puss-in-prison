@@ -49,7 +49,7 @@ keyInteract = keyboard_check_pressed(vk_shift);
 
 #region carrying mechanic
 
-	itemNear = instance_nearest(x, y, obj_carryable); // check nearest carryable item
+	itemNear = instance_nearest(x, y, obj_par_item); // check nearest carryable item
 
 	function carryPlayer2()
 	{

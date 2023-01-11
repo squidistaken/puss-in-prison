@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_carryable",
-    "path": "objects/obj_carryable/obj_carryable.yy",
+    "name": "obj_par_item",
+    "path": "objects/obj_par_item/obj_par_item.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,14 +27,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "carry",
-    "path": "folders/Objects/carry.yy",
+    "name": "Carryable Objects",
+    "path": "folders/Objects/Interactables/Carryable Objects.yy",
   },
 }

@@ -1,5 +1,7 @@
 /// @description Setup
 
-switchIsOn = false;
-image_speed = 0; // Prevent looping
-image_index = 0; // Set it to a certain frame
+image_speed = 0; // Prevent headaches
+image_index = 0; // "Off State"
+
+isSwitched = false; // We want players to press the switch
+switchesNeeded = 0; // At default the solution is solved
