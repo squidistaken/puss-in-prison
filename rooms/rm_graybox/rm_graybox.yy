@@ -82,6 +82,8 @@
     {"name":"inst_779391ED","path":"rooms/rm_graybox/rm_graybox.yy",},
     {"name":"inst_600CDE21","path":"rooms/rm_graybox/rm_graybox.yy",},
     {"name":"inst_4CEF17CC","path":"rooms/rm_graybox/rm_graybox.yy",},
+    {"name":"inst_7F22F93C","path":"rooms/rm_graybox/rm_graybox.yy",},
+    {"name":"inst_6BB4754B","path":"rooms/rm_graybox/rm_graybox.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
