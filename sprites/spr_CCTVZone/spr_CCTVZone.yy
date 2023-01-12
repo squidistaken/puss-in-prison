@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Interactables",
+    "path": "folders/Sprites/Interactables.yy",
   },
 }
