@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_button_play",
+  "name": "obj_button_controls",
   "spriteId": {
-    "name": "spr_button_play",
-    "path": "sprites/spr_button_play/spr_button_play.yy",
+    "name": "spr_button_controls",
+    "path": "sprites/spr_button_controls/spr_button_controls.yy",
   },
   "solid": false,
   "visible": true,
