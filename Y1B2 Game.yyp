@@ -39,7 +39,7 @@
     {"id":{"name":"spr_home_menu","path":"sprites/spr_home_menu/spr_home_menu.yy",},"order":0,},
     {"id":{"name":"sfx_plr2_walk","path":"sounds/sfx_plr2_walk/sfx_plr2_walk.yy",},"order":3,},
     {"id":{"name":"spr_plr2_idle","path":"sprites/spr_plr2_idle/spr_plr2_idle.yy",},"order":1,},
-    {"id":{"name":"spr_switch","path":"sprites/spr_switch/spr_switch.yy",},"order":2,},
+    {"id":{"name":"spr_switch","path":"sprites/spr_switch/spr_switch.yy",},"order":3,},
     {"id":{"name":"obj_plr1","path":"objects/obj_plr1/obj_plr1.yy",},"order":0,},
     {"id":{"name":"spr_button_exit","path":"sprites/spr_button_exit/spr_button_exit.yy",},"order":6,},
     {"id":{"name":"spr_pause_menu","path":"sprites/spr_pause_menu/spr_pause_menu.yy",},"order":1,},
