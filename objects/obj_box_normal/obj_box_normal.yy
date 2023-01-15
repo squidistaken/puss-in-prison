@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_box",
+  "name": "obj_box_normal",
   "spriteId": {
     "name": "spr_box",
     "path": "sprites/spr_box/spr_box.yy",
@@ -35,7 +35,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Interactables",
-    "path": "folders/Objects/Interactables.yy",
+    "name": "Boxes",
+    "path": "folders/Objects/Interactables/Boxes.yy",
   },
 }

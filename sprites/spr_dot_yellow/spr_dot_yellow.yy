@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Carryable Objects",
+    "path": "folders/Sprites/Interactables/Carryable Objects.yy",
   },
 }

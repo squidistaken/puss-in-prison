@@ -1,17 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_plr1",
+  "name": "obj_button_play",
   "spriteId": {
-    "name": "spr_plr1_idle",
-    "path": "sprites/spr_plr1_idle/spr_plr1_idle.yy",
+    "name": "spr_button_play",
+    "path": "sprites/spr_button_play/spr_button_play.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_par_buttonTap",
+    "path": "objects/obj_par_buttonTap/obj_par_buttonTap.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -26,12 +29,11 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Players",
-    "path": "folders/Objects/Players.yy",
+    "name": "Title Screen",
+    "path": "folders/Objects/UI/Title Screen.yy",
   },
 }
