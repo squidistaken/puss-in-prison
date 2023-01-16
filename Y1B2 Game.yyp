@@ -79,6 +79,8 @@
     {"id":{"name":"rm_graybox","path":"rooms/rm_graybox/rm_graybox.yy",},"order":0,},
   ],
   "Options": [
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -101,6 +103,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy","order":13,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":9,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bridge assets","folderPath":"folders/Objects/Bridge assets.yy","order":6,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Camera","folderPath":"folders/Objects/Camera.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Interactables","folderPath":"folders/Objects/Interactables.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Boxes","folderPath":"folders/Objects/Interactables/Boxes.yy","order":6,},
@@ -130,7 +133,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Sprites/UI.yy","order":16,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bridge assets","folderPath":"folders/Objects/Bridge assets.yy","order":6,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
