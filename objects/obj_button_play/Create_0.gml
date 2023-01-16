@@ -6,5 +6,6 @@ event_inherited();
 // Activate button function
 activate_button = function()
 {
-	room_goto(rm_graybox);
+	global.playerControl = false;
+	scr_playSeq(seq_backstory);
 }

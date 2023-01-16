@@ -1,9 +1,20 @@
 ///@description Movement
 
-keyLeft = keyboard_check(vk_left);
-keyRight = keyboard_check(vk_right);
-keyUp = keyboard_check_pressed(vk_up);
-keyInteract = keyboard_check_pressed(vk_shift);
+switch global.playerControl
+{
+	case true:
+		keyLeft = keyboard_check(vk_left);
+		keyRight = keyboard_check(vk_right);
+		keyUp = keyboard_check_pressed(vk_up);
+		keyInteract = keyboard_check_pressed(vk_shift);
+		break
+	case false:
+		keyLeft = 0;
+		keyRight = 0;
+		keyUp = 0;
+		keyInteract = 0;
+		break
+}
 
 #region horizontal collision/movement
 

@@ -33,7 +33,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bridge",
-    "path": "folders/Objects/Bridge.yy",
+    "name": "Bridge assets",
+    "path": "folders/Objects/Bridge assets.yy",
   },
 }
