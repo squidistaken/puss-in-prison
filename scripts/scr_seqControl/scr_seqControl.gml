@@ -12,5 +12,12 @@ function scr_playSeq(_sequence)
 function scr_loseRestart()
 {
 	room_restart();
-	global.playerControl = true
+	global.playerControl = true;
 } 
+
+function scr_startGame()
+{
+	// change this for final
+	room_goto(rm_graybox);
+	global.playerControl = true;	
+}
