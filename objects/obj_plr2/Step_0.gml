@@ -1,7 +1,19 @@
-keyLeft = keyboard_check(ord("A"));
-keyRight = keyboard_check(ord("D"));
-keyUp = keyboard_check_pressed(ord("W"));
-keyInteract = keyboard_check_pressed(ord("E"));
+switch global.playerControl
+{
+	case true:
+		keyLeft = keyboard_check(ord("A"));
+		keyRight = keyboard_check(ord("D"));
+		keyUp = keyboard_check_pressed(ord("W"));
+		keyInteract = keyboard_check_pressed(ord("E"));
+		break
+	case false:
+		keyLeft = 0;
+		keyRight = 0;
+		keyUp = 0;
+		keyInteract = 0;
+		break
+}
+
 
 #region horzizontal movement/collision
 
