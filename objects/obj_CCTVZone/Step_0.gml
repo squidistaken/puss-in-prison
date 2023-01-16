@@ -14,5 +14,5 @@ if ((place_meeting(x,y,obj_plr1)) || (place_meeting(x,y,obj_plr2))) && image_ind
 {
 	// Temporary solution for now
 	instance_deactivate_object(obj_cctvZone);
-	scr_loseTrigger();
+	scr_playSeq(seq_lose);
 }
