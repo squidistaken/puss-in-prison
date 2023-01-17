@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_plr1",
   "spriteId": {
-    "name": "spr_plr1_idle",
-    "path": "sprites/spr_plr1_idle/spr_plr1_idle.yy",
+    "name": "spr_plr1_idle_front",
+    "path": "sprites/spr_plr1_idle_front/spr_plr1_idle_front.yy",
   },
   "solid": false,
   "visible": true,

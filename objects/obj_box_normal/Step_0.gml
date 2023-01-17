@@ -35,6 +35,7 @@ switch (pushState)
 		if (place_meeting(x-obj_plr1.horizontalSpeed,y,obj_plr1))
 		{
 			horizontalSpeed = obj_plr1.horizontalSpeed;
+			obj_plr1.plrState = plr1State.pushing;
 			// Alarm = Event you can call for X amount of steps
 			alarm[0] = 1;
 		}

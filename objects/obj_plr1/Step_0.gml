@@ -13,6 +13,7 @@ switch global.playerControl
 		keyRight = 0;
 		keyUp = 0;
 		keyInteract = 0;
+		plrState = plr1State.spin;
 		break
 }
 
@@ -41,6 +42,7 @@ switch global.playerControl
 	if (place_meeting(x,y+verticalSpeed,obj_wall)) && (keyUp)
 	{
 		audio_play_sound(sfx_plr1_jump,1000,0);
+		plrState = plr1State.jumping;
 		verticalSpeed = -10;
 	}
 
@@ -62,17 +64,6 @@ switch global.playerControl
 #region carrying mechanic
 
 	itemNear = instance_nearest(x, y, obj_par_item); // check nearest carryable item
-
-	function carryPlayer2()
-	{
-		obj_plr2.x = x;
-		obj_plr2.y = y - 110;
-		obj_plr2.grv = 0;
-		moveSpeed = 3;
-		sprite_index = spr_plr1_carrying;
-	}
-	
-
 	
 	if (global.carryingP2)
 	{
@@ -111,6 +102,74 @@ switch global.playerControl
 		itemCarrying = itemNear;
 	}
 
+	pauseFrame = false;
+	
 #endregion
 
-pauseFrame = false;
+#region States
+	// Setting sprites based on states and directions
+	switch keyboard_key {
+		case vk_right:
+			if (horizontalSpeed != 0)
+			{
+				plrState = plr1State.walking;
+			}
+			dir = 1;
+			break
+		case vk_left:
+			if (horizontalSpeed != 0)
+			{
+				plrState = plr1State.walking;
+			}
+			dir = 2;
+			break
+	}
+
+	switch plrState
+	{
+		case plr1State.walking:
+			if (horizontalSpeed = 0)
+			{
+				plrState = plr1State.idle;
+			}
+			if (verticalSpeed != 0)
+			{
+				plrState = plr1State.jumping;
+			}
+			break
+		case plr1State.jumping:
+			if (image_index >= image_number-1)
+			{
+				image_speed = 0;
+			}
+			if (place_meeting(x,y+verticalSpeed,obj_wall))
+			{
+				image_speed = 1;
+				plrState = plr1State.idle;
+			}
+			break
+		case plr1State.spin:
+			dir = 0;
+			break
+	}
+	
+	/* if (horizontalSpeed != 0) && (!keyUp)
+	{
+		if (place_meeting(x+horizontalSpeed,y,obj_box_normal)) || (place_meeting(x+horizontalSpeed,y,obj_box_big))
+		{
+			plrState = plr1State.pushing;
+		}
+		else
+		{
+			plrState = plr1State.walking;	
+		}
+	}
+	else
+	{
+		plrState = plr1State.idle;
+	}*/
+	
+	// Sprite Index via Arrays
+	sprite_index = plrSpr[plrState][dir];
+
+#endregion
