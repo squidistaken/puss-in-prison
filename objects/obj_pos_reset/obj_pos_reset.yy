@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_pos_reset",
   "spriteId": {
-    "name": "spr_red_block",
-    "path": "sprites/spr_red_block/spr_red_block.yy",
+    "name": "spr_brick",
+    "path": "sprites/spr_brick/spr_brick.yy",
   },
   "solid": false,
   "visible": true,
