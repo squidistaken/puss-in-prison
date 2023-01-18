@@ -18,6 +18,6 @@ function scr_loseRestart()
 function scr_startGame()
 {
 	// change this for final
-	room_goto(rm_graybox);
+	room_goto(rm_puzzle00);
 	global.playerControl = true;	
 }

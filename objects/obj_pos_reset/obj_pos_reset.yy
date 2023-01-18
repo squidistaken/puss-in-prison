@@ -30,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bridge assets",
-    "path": "folders/Objects/Bridge assets.yy",
+    "name": "Bridges",
+    "path": "folders/Objects/Interactables/Bridges.yy",
   },
 }
