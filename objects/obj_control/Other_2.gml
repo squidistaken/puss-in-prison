@@ -13,6 +13,7 @@ enum plr1State
 	pushing,
 	action,
 	spin,
+	carrying,
 }
 
 enum plr2State
@@ -23,6 +24,7 @@ enum plr2State
 	pushing,
 	action,
 	spin,
+	carrying,
 }
 
 

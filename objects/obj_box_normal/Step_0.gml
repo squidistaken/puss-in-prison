@@ -42,6 +42,7 @@ switch (pushState)
 		if (place_meeting(x-obj_plr2.horizontalSpeed,y,obj_plr2))
 		{
 			horizontalSpeed = obj_plr2.horizontalSpeed;
+			obj_plr2.plrState = plr2State.pushing;
 			alarm[0] = 1;
 		}
 		// Ensuring obj_plr1 and obj_plr2 do not overlap with the box.

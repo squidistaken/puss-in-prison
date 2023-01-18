@@ -107,7 +107,7 @@ switch global.playerControl
 #endregion
 
 #region Animation States
-	// Setting sprites based on states and directions
+	
 	switch keyboard_key {
 		case vk_right:
 			if (horizontalSpeed != 0)
@@ -128,8 +128,12 @@ switch global.playerControl
 			break
 	}
 
+	// Setting sprites based on states and directions
 	switch plrState
 	{
+		case plr1State.idle:
+			image_speed = 1;
+			break
 		case plr1State.walking:
 			if (horizontalSpeed = 0)
 			{

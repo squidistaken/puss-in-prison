@@ -6,6 +6,13 @@ global.carryingP2 = false;
 itemCarrying = noone;
 pauseFrame = false;
 
+// These help figure out what sprites we want via state and direction
+/*
+0 = front
+1 = right
+2 = left
+3 = back
+*/
 dir = 1;
 plrState = plr1State.idle;
 
