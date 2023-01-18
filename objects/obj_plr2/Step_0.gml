@@ -41,7 +41,7 @@ switch global.playerControl
 	//jump
 	function jump()
 	{
-	 verticalSpeed = -10;	
+	 verticalSpeed = -14;	
 	}
 
 	if (place_meeting(x,y+verticalSpeed,obj_wall)) && (keyUp)
