@@ -43,7 +43,7 @@ switch global.playerControl
 	function jump()
 	{
 	 plrState = plr2State.jumping;
-	 verticalSpeed = -10;	
+	 verticalSpeed = -14;	
 	}
 
 	if (place_meeting(x,y+verticalSpeed,obj_wall)) && (keyUp)

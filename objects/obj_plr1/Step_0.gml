@@ -43,7 +43,7 @@ switch global.playerControl
 	{
 		audio_play_sound(sfx_plr1_jump,1000,0);
 		plrState = plr1State.jumping;
-		verticalSpeed = -10;
+		verticalSpeed = -14;
 	}
 
 

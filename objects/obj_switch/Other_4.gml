@@ -10,4 +10,7 @@ switch room
 		// Defining how many switches need to be flicked to deactivate the object.
 		switchesNeeded = 1;
 		break
+	case rm_puzzle00:
+		switchesNeeded = 1;
+		break
 }

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_bridge_switch_23",
   "spriteId": {
-    "name": "spr_switch",
-    "path": "sprites/spr_switch/spr_switch.yy",
+    "name": "spr_wall_switch",
+    "path": "sprites/spr_wall_switch/spr_wall_switch.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bridge assets",
-    "path": "folders/Objects/Bridge assets.yy",
+    "name": "Bridges",
+    "path": "folders/Objects/Interactables/Bridges.yy",
   },
 }
