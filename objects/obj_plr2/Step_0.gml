@@ -11,6 +11,7 @@ switch global.playerControl
 		keyRight = 0;
 		keyUp = 0;
 		keyInteract = 0;
+		plrState = plr2State.spin;
 		break
 }
 
@@ -41,6 +42,7 @@ switch global.playerControl
 	//jump
 	function jump()
 	{
+	 plrState = plr2State.jumping;
 	 verticalSpeed = -14;	
 	}
 
@@ -98,6 +100,69 @@ switch global.playerControl
 
 #endregion
 
+#region Animation States
+	
+	switch keyboard_key {
+		case ord("D"):
+			if (horizontalSpeed != 0)
+			{
+				plrState = plr2State.walking;
+			}
+			dir = 1;
+			break
+		case ord("A"):
+			if (horizontalSpeed != 0)
+			{
+				plrState = plr2State.walking;
+			}
+			dir = 2;
+			break
+		case ord("E"):
+			plrState = plr2State.action;
+			break
+	}
 
+	// Setting sprites based on states and directions
+	switch plrState
+	{
+		case plr2State.idle:
+			image_speed = 1;
+			break
+		case plr2State.walking:
+			if (horizontalSpeed = 0)
+			{
+				plrState = plr2State.idle;
+			}
+			if (verticalSpeed != 0)
+			{
+				plrState = plr2State.jumping;
+			}
+			break
+		case plr2State.jumping:
+			if (image_index >= image_number-1)
+			{
+				image_speed = 0;
+			}
+			if (place_meeting(x,y+verticalSpeed,obj_wall))
+			{
+				image_speed = 1;
+				plrState = plr2State.idle;
+			}
+			break
+		case plr2State.action:
+			if (image_index >= image_number-1)
+			{
+				plrState = plr2State.idle;
+			}
+			break
+		case plr2State.spin:
+			dir = 0;
+			break
+	}
+	
+	// Sprite Index via Arrays
+	sprite_index = plrSpr[plrState][dir];
+
+#endregion
 
 
