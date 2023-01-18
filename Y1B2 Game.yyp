@@ -89,7 +89,7 @@
     {"id":{"name":"spr_wall_switch","path":"sprites/spr_wall_switch/spr_wall_switch.yy",},"order":5,},
     {"id":{"name":"obj_bridge_switch_123","path":"objects/obj_bridge_switch_123/obj_bridge_switch_123.yy",},"order":11,},
     {"id":{"name":"spr_bars","path":"sprites/spr_bars/spr_bars.yy",},"order":6,},
-    {"id":{"name":"rm_grey","path":"rooms/rm_grey/rm_grey.yy",},"order":5,},
+    {"id":{"name":"rm_graybox","path":"rooms/rm_graybox/rm_graybox.yy",},"order":5,},
     {"id":{"name":"spr_plr2_push_left","path":"sprites/spr_plr2_push_left/spr_plr2_push_left.yy",},"order":9,},
     {"id":{"name":"obj_plr1","path":"objects/obj_plr1/obj_plr1.yy",},"order":0,},
     {"id":{"name":"spr_button_exit","path":"sprites/spr_button_exit/spr_button_exit.yy",},"order":6,},
@@ -167,9 +167,6 @@
         {"roomId":{"name":"rm_puzzle03","path":"rooms/rm_puzzle03/rm_puzzle03.yy",},},
       ],},
     {"roomId":{"name":"rm_graybox","path":"rooms/rm_graybox/rm_graybox.yy",},},
-    {"roomId":{"name":"rm_graybox","path":"rooms/rm_graybox/rm_graybox.yy",},},
-    {"roomId":{"name":"rm_graybox","path":"rooms/rm_graybox/rm_graybox.yy",},},
-    {"roomId":{"name":"rm_grey","path":"rooms/rm_grey/rm_grey.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
