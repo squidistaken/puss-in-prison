@@ -106,7 +106,7 @@ switch global.playerControl
 	
 #endregion
 
-#region States
+#region Animation States
 	// Setting sprites based on states and directions
 	switch keyboard_key {
 		case vk_right:
@@ -122,6 +122,9 @@ switch global.playerControl
 				plrState = plr1State.walking;
 			}
 			dir = 2;
+			break
+		case vk_shift:
+			plrState = plr1State.action;
 			break
 	}
 
@@ -148,26 +151,16 @@ switch global.playerControl
 				plrState = plr1State.idle;
 			}
 			break
+		case plr1State.action:
+			if (image_index >= image_number-1)
+			{
+				plrState = plr1State.idle;
+			}
+			break
 		case plr1State.spin:
 			dir = 0;
 			break
 	}
-	
-	/* if (horizontalSpeed != 0) && (!keyUp)
-	{
-		if (place_meeting(x+horizontalSpeed,y,obj_box_normal)) || (place_meeting(x+horizontalSpeed,y,obj_box_big))
-		{
-			plrState = plr1State.pushing;
-		}
-		else
-		{
-			plrState = plr1State.walking;	
-		}
-	}
-	else
-	{
-		plrState = plr1State.idle;
-	}*/
 	
 	// Sprite Index via Arrays
 	sprite_index = plrSpr[plrState][dir];
