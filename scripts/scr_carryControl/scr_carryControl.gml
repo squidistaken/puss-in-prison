@@ -9,5 +9,4 @@ function resetPlayer2Carry(){ //reset plr 2 to original state
 	global.carryingP2 = false;
 	obj_plr1.sprite_index = spr_plr1;
 	obj_plr1.moveSpeed = 5;
-	show_debug_message(x)
 }

@@ -1,4 +1,4 @@
-moveSpeed = 5;
+moveSpeed = 5.5;
 horizontalSpeed = 0;
 verticalSpeed = 0;
 grv = 0.5;

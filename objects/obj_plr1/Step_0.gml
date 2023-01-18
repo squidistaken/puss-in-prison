@@ -41,7 +41,7 @@ switch global.playerControl
 	if (place_meeting(x,y+verticalSpeed,obj_wall)) && (keyUp)
 	{
 		audio_play_sound(sfx_plr1_jump,1000,0);
-		verticalSpeed = -10;
+		verticalSpeed = -14;
 	}
 
 
