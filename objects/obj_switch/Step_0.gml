@@ -35,5 +35,3 @@ if (place_meeting(x,y,obj_plr1) && obj_plr1.keyInteract) || (place_meeting(x,y,o
 	}
 }
 #endregion
-
-show_debug_message(global.switchCount);
