@@ -37,8 +37,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_22AA378","properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":14.0,"scaleY":7.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":1280.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Players","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1F4F79A4","properties":[],"isDnd":false,"objectId":{"name":"obj_plr1","path":"objects/obj_plr1/obj_plr1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":640.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D63ADCF","properties":[],"isDnd":false,"objectId":{"name":"obj_plr2","path":"objects/obj_plr2/obj_plr2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":672.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1F4F79A4","properties":[],"isDnd":false,"objectId":{"name":"obj_plr1","path":"objects/obj_plr1/obj_plr1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.3,"scaleY":0.3,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":640.0,},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Interactables","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_19CE179B","properties":[],"isDnd":false,"objectId":{"name":"obj_carryItem1","path":"objects/obj_carryItem1/obj_carryItem1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":416.0,},
@@ -59,13 +59,14 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1CE68FCE","properties":[],"isDnd":false,"objectId":{"name":"obj_bridge_controller","path":"objects/obj_bridge_controller/obj_bridge_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":1088.0,},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Background_Tiles","tilesetId":{"name":"tileset_ground","path":"tilesets/tileset_ground/tileset_ground.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":32,"SerialiseHeight":17,"TileCompressedData":[
--66,-2147483648,-30,2,-2,-2147483648,-5,2,16,4,5,2,4,5,5,2,4,5,2,4,5,5,2,4,5,-5,2,-2,1,-2,2,-2,
--2147483648,-5,2,16,8,9,2,8,8,9,2,8,9,2,8,8,9,2,8,9,-4,2,-4,1,5,2,-2147483648,-2147483648,2,2,-4,1,
--16,2,-5,1,-3,2,1,-2147483648,-3,2,-5,1,-3,2,-3,1,-4,2,-4,1,-2,2,1,1,-6,2,-2,-2147483648,-5,2,-6,1,
-1,2,-9,1,3,2,1,1,-6,-2147483648,-10,2,-8,1,-2,2,-3,1,-3,2,-6,-2147483648,-17,2,1,1,-3,2,-2,1,-3,2,
--6,-2147483648,-16,2,-2,1,-2,2,-2,1,-4,2,-6,-2147483648,-11,2,1,1,-3,2,-2,1,-3,2,1,1,-5,2,-15,-2147483648,3,2,
-1,1,-3,2,1,1,-3,2,-2,1,-20,-2147483648,7,2,1,2,1,2,1,1,-3,2,2,1,2,-20,-2147483648,3,2,1,2,-3,
-1,-3,2,3,1,2,2,-20,-2147483648,5,2,1,1,2,1,-7,2,-20,-2147483648,-12,2,-11,-2147483648,],},"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+-66,-2147483648,-30,2,-2,-2147483648,-5,2,16,4,5,2,4,5,5,2,4,5,2,4,5,5,2,4,5,-5,2,6,1,4,5,2,
+-2147483648,-2147483648,-5,2,16,8,9,2,8,8,9,2,8,9,2,8,8,9,2,8,9,-4,2,-2,1,7,8,9,2,-2147483648,-2147483648,2,
+2,-4,1,-16,2,-5,1,-3,2,1,-2147483648,-3,2,-5,1,-3,2,-3,1,-4,2,-4,1,-2,2,1,1,-6,2,-2,-2147483648,-5,
+2,-6,1,1,2,-9,1,3,2,1,1,-6,-2147483648,-10,2,-8,1,-2,2,-3,1,-3,2,-6,-2147483648,-17,2,1,1,-3,2,-2,
+1,-2,2,2,4,5,-5,-2147483648,-16,2,-2,1,-2,2,-2,1,-3,2,2,8,9,-5,-2147483648,-11,2,1,1,-3,2,-2,1,-3,
+2,1,1,-5,2,-15,-2147483648,3,2,1,1,-3,2,1,1,-3,2,-2,1,-20,-2147483648,7,2,1,2,1,2,1,1,-3,2,2,
+1,2,-20,-2147483648,6,2,1,2,1,4,5,-3,2,3,1,2,2,-20,-2147483648,6,2,1,1,2,8,9,-6,2,-20,-2147483648,-12,2,
+-11,-2147483648,],},"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
   "creationCodeFile": "",
@@ -122,7 +123,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Puzzle Rooms",
+    "path": "folders/Rooms/Puzzle Rooms.yy",
   },
 }
