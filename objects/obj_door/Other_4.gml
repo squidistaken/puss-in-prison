@@ -5,7 +5,10 @@ switch room
 {
 	// Checking for a specific room
 	case rm_puzzle00:
-		// Defining how many switches need to be flicked to deactivate the object.
+		// Defining how we want the sprite to look
 		image_index = 2;
+		break
+	case rm_puzzle01:
+		image_index = 0;
 		break
 }
