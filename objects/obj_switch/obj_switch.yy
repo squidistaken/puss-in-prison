@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_switch",
   "spriteId": {
-    "name": "spr_wall_switch",
-    "path": "sprites/spr_wall_switch/spr_wall_switch.yy",
+    "name": "spr_switch_floor",
+    "path": "sprites/spr_switch_floor/spr_switch_floor.yy",
   },
   "solid": false,
   "visible": true,
