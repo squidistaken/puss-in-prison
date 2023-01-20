@@ -171,9 +171,9 @@
   "RoomOrderNodes": [
     {"groupName":"Puzzle Rooms","children":[
         {"roomId":{"name":"rm_puzzle00","path":"rooms/rm_puzzle00/rm_puzzle00.yy",},},
+        {"roomId":{"name":"rm_puzzle01","path":"rooms/rm_puzzle01/rm_puzzle01.yy",},},
         {"roomId":{"name":"rm_puzzle02","path":"rooms/rm_puzzle02/rm_puzzle02.yy",},},
         {"roomId":{"name":"rm_puzzle03","path":"rooms/rm_puzzle03/rm_puzzle03.yy",},},
-        {"roomId":{"name":"rm_puzzle01","path":"rooms/rm_puzzle01/rm_puzzle01.yy",},},
       ],},
     {"groupName":"Menus","children":[
         {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
