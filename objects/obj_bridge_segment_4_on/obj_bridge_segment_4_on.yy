@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_bridge_segment_4_on",
   "spriteId": {
-    "name": "spr_brick",
-    "path": "sprites/spr_brick/spr_brick.yy",
+    "name": "spr_bridge",
+    "path": "sprites/spr_bridge/spr_bridge.yy",
   },
   "solid": true,
   "visible": true,

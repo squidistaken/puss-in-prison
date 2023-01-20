@@ -12,6 +12,9 @@ switch room
 	case rm_puzzle01:
 		switchesNeeded = 2;
 		break
+	case rm_puzzle02:
+		switchesNeeded = 1;
+		break
 	case rm_graybox:
 		switchesNeeded = 2;
 		break
