@@ -11,4 +11,7 @@ switch room
 	case rm_puzzle01:
 		image_index = 0;
 		break
+	case rm_puzzle02:
+		image_index = 4;
+		break
 }
