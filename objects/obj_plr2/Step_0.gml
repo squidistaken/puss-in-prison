@@ -89,15 +89,13 @@ switch global.playerControl
 		itemCarrying.y = y - 100;
 		if (keyInteract) //drop item
 		{
-			show_debug_message(x)
-			itemCarrying.grv = 0.5;
-			itemCarrying = noone;
-			pauseFrame = true;
+			scr_dropItem();
 		}
 	}
 
 	if (place_meeting(x,y,itemNear)) && (itemCarrying == noone) && (keyInteract) && (itemNear != obj_plr1.itemCarrying) && (!pauseFrame)
 	{
+		audio_play_sound(sfx_key_interact,10000,0);
 		itemCarrying = itemNear;
 	}
 

@@ -1,9 +1,14 @@
 function scr_carryItem(){
 	itemCarrying.x = x;
-	
 	itemCarrying.grv = 0;
 }
 
+function scr_dropItem(_player)
+{
+	_player.itemCarrying.grv = 0.5;
+	_player.itemCarrying = noone;
+	_player.pauseFrame = true;
+}
 function carryPlayer2()
 {
 	obj_plr2.x = x;
