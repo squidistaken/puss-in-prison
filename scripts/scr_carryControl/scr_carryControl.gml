@@ -18,7 +18,6 @@ function carryPlayer2()
 }
 	
 function resetPlayer2Carry(){ //reset plr 2 to original state
-	carryingP2 = false;
 	obj_plr2.grv = 0.5; 
 	global.carryingP2 = false;
 	obj_plr1.moveSpeed = 5;
