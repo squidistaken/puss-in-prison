@@ -17,7 +17,11 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
+<<<<<<< Updated upstream
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D3C5D3D","properties":[],"isDnd":false,"objectId":{"name":"obj_button_exit","path":"objects/obj_button_exit/obj_button_exit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.6588875,"scaleY":0.65888757,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":287.99997,"y":992.0,},
+=======
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_38D7C0","properties":[],"isDnd":false,"objectId":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":1088.0,},
+>>>>>>> Stashed changes
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_4839F92B","spriteId":{"name":"spr_plr1_spin","path":"sprites/spr_plr1_spin/spr_plr1_spin.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.60212666,"scaleY":0.6021267,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1600.0,"y":800.0,},
@@ -31,7 +35,11 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
+<<<<<<< Updated upstream
     {"name":"inst_2D3C5D3D","path":"rooms/rm_controls/rm_controls.yy",},
+=======
+    {"name":"inst_38D7C0","path":"rooms/rm_controls/rm_controls.yy",},
+>>>>>>> Stashed changes
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
