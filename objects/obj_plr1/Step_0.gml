@@ -87,6 +87,7 @@ switch global.playerControl
 	if (itemCarrying != noone) && (!global.carryingP2)
 	{
 		scr_carryItem();
+		itemCarrying.y = y - 150;
 		if (keyInteract) //drop item
 		{
 			itemCarrying.grv = 0.5;
