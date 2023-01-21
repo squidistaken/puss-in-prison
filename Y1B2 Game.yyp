@@ -122,6 +122,7 @@
     {"id":{"name":"spr_button_play","path":"sprites/spr_button_play/spr_button_play.yy",},"order":3,},
     {"id":{"name":"spr_box_small","path":"sprites/spr_box_small/spr_box_small.yy",},"order":2,},
     {"id":{"name":"backstory06","path":"sprites/backstory06/backstory06.yy",},"order":9,},
+    {"id":{"name":"spr_carry_mask","path":"sprites/spr_carry_mask/spr_carry_mask.yy",},"order":3,},
     {"id":{"name":"sfx_box_push","path":"sounds/sfx_box_push/sfx_box_push.yy",},"order":3,},
     {"id":{"name":"spr_plr1_action_left","path":"sprites/spr_plr1_action_left/spr_plr1_action_left.yy",},"order":3,},
     {"id":{"name":"scr_carryControl","path":"scripts/scr_carryControl/scr_carryControl.yy",},"order":0,},
@@ -183,9 +184,9 @@
   },
   "RoomOrderNodes": [
     {"groupName":"Puzzle Rooms","children":[
-        {"roomId":{"name":"rm_puzzle02","path":"rooms/rm_puzzle02/rm_puzzle02.yy",},},
-        {"roomId":{"name":"rm_puzzle01","path":"rooms/rm_puzzle01/rm_puzzle01.yy",},},
         {"roomId":{"name":"rm_puzzle00","path":"rooms/rm_puzzle00/rm_puzzle00.yy",},},
+        {"roomId":{"name":"rm_puzzle01","path":"rooms/rm_puzzle01/rm_puzzle01.yy",},},
+        {"roomId":{"name":"rm_puzzle02","path":"rooms/rm_puzzle02/rm_puzzle02.yy",},},
         {"roomId":{"name":"rm_puzzle03","path":"rooms/rm_puzzle03/rm_puzzle03.yy",},},
       ],},
     {"groupName":"Menus","children":[

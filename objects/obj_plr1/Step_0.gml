@@ -83,7 +83,6 @@ switch global.playerControl
 	}
 
 
-
 	if (itemCarrying != noone) && (!global.carryingP2)
 	{
 		scr_carryItem();
@@ -92,6 +91,17 @@ switch global.playerControl
 		{
 			scr_dropItem(obj_plr1);
 		}
+	}
+
+	show_debug_message(mask_index);
+	switch global.carryingP2
+	{
+		case true:
+			mask_index = spr_carry_mask;
+			break
+		case false:
+			mask_index = spr_plr1_idle_front;
+			break
 	}
 
 
