@@ -2,7 +2,7 @@
 
 timer --;
 
-if(timer == -60)
+if(timer == -300)
 {
 	image_index = image_index + 1;
 	
