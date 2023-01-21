@@ -89,7 +89,7 @@ switch global.playerControl
 		itemCarrying.y = y - 100;
 		if (keyInteract) //drop item
 		{
-			scr_dropItem();
+			scr_dropItem(obj_plr2);
 		}
 	}
 

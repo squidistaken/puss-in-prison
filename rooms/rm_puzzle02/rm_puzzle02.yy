@@ -54,6 +54,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_284C4270","properties":[],"isDnd":false,"objectId":{"name":"obj_switch","path":"objects/obj_switch/obj_switch.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.0,"scaleX":0.3802459,"scaleY":0.3802459,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1279.9999,"y":192.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_717180A4","properties":[],"isDnd":false,"objectId":{"name":"obj_par_item","path":"objects/obj_par_item/obj_par_item.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-64.0,"y":1120.0,},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Dog","assets":[
+        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_63DDE5B7","spriteId":{"name":"spr_dog1_sleeping","path":"sprites/spr_dog1_sleeping/spr_dog1_sleeping.yy",},"headPosition":0.0,"rotation":90.0,"scaleX":0.25574997,"scaleY":0.25574997,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":345.0,"y":200.0,},
+      ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Background_Tiles","tilesetId":{"name":"tileset_ground","path":"tilesets/tileset_ground/tileset_ground.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":30,"SerialiseHeight":17,"TileCompressedData":[
 -3,2,5,1,2,4,5,1,-3,2,1,1,-3,2,1,1,-3,2,13,1,2,2,1,2,2,1,1,2,2,1,
 2,1,-3,2,5,8,9,2,2,1,-3,2,1,1,-3,2,1,1,-3,2,4,1,2,2,1,-3,2,3,1,2,
@@ -71,7 +74,7 @@
 1,8,9,2,1,-3,2,1,1,-3,2,1,1,-3,2,-2,1,-3,2,1,1,-3,2,1,1,-3,2,1,1,-3,
 2,1,1,-3,2,7,1,2,2,1,2,1,1,-5,2,1,1,-3,2,1,1,-3,2,1,1,-3,2,1,1,-3,
 2,1,1,-3,2,3,1,2,1,-4,2,3,1,2,1,-3,2,1,1,-3,2,1,1,-3,2,1,1,-3,2,1,
-1,-3,2,1,1,-4,2,4,1,2,1,2,],},"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+1,-3,2,1,1,-4,2,4,1,2,1,2,],},"visible":true,"depth":700,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
   "creationCodeFile": "",
