@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_carryItem1",
   "spriteId": {
-    "name": "spr_dot_pink",
-    "path": "sprites/spr_dot_pink/spr_dot_pink.yy",
+    "name": "spr_key",
+    "path": "sprites/spr_key/spr_key.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,7 +29,9 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"itemType","path":"objects/obj_par_item/obj_par_item.yy",},"objectId":{"name":"obj_par_item","path":"objects/obj_par_item/obj_par_item.yy",},"value":"\"key\"",},
+  ],
   "parent": {
     "name": "Carryable Objects",
     "path": "folders/Objects/Interactables/Carryable Objects.yy",
