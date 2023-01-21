@@ -90,9 +90,7 @@ switch global.playerControl
 		itemCarrying.y = y - 150;
 		if (keyInteract) //drop item
 		{
-			itemCarrying.grv = 0.5;
-			itemCarrying = noone;
-			pauseFrame = true;
+			scr_dropItem(obj_plr1);
 		}
 	}
 

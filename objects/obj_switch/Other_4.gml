@@ -11,6 +11,7 @@ switch room
 		switchesNeeded = 1;
 		break
 	case rm_puzzle01:
+		sprite_index = spr_switch_wall;
 		switchesNeeded = 2;
 		break
 	case rm_puzzle02:
