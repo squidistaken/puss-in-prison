@@ -86,17 +86,22 @@ switch global.playerControl
 	if (itemCarrying != noone) 
 	{
 		scr_carryItem();
+		itemCarrying.y = y - 100;
 		if (keyInteract) //drop item
 		{
+			show_debug_message(x)
 			itemCarrying.grv = 0.5;
 			itemCarrying = noone;
+			pauseFrame = true;
 		}
 	}
 
-	if (point_distance(x, y,itemNear.x,itemNear.y) < 64) && (itemCarrying == noone) && (keyInteract) && (itemNear != obj_plr1.itemCarrying)
+	if (place_meeting(x,y,itemNear)) && (itemCarrying == noone) && (keyInteract) && (itemNear != obj_plr1.itemCarrying) && (!pauseFrame)
 	{
 		itemCarrying = itemNear;
 	}
+
+	pauseFrame = false;
 
 #endregion
 

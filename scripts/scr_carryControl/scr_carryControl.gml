@@ -1,6 +1,6 @@
 function scr_carryItem(){
 	itemCarrying.x = x;
-	itemCarrying.y = y - 64;
+	
 	itemCarrying.grv = 0;
 }
 

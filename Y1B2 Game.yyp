@@ -157,14 +157,13 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_puzzle03","path":"rooms/rm_puzzle03/rm_puzzle03.yy",},},
+    {"roomId":{"name":"rm_puzzle00","path":"rooms/rm_puzzle00/rm_puzzle00.yy",},},
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"groupName":"Menus","children":[
         {"roomId":{"name":"rm_controls","path":"rooms/rm_controls/rm_controls.yy",},},
       ],},
-    {"groupName":"Puzzle Rooms","children":[
-        {"roomId":{"name":"rm_puzzle00","path":"rooms/rm_puzzle00/rm_puzzle00.yy",},},
-        {"roomId":{"name":"rm_puzzle03","path":"rooms/rm_puzzle03/rm_puzzle03.yy",},},
-      ],},
+    {"groupName":"Puzzle Rooms","children":[],},
     {"roomId":{"name":"rm_graybox","path":"rooms/rm_graybox/rm_graybox.yy",},},
   ],
   "Folders": [
