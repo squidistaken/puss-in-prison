@@ -3,7 +3,7 @@
   "resourceVersion": "1.1",
   "name": "Windows",
   "option_windows_display_name": "Puss in Prison",
-  "option_windows_executable_name": "$Puss in Prison.exe",
+  "option_windows_executable_name": "Puss in Prison.exe",
   "option_windows_version": "1.0.0.0",
   "option_windows_company_info": "Fishy Business",
   "option_windows_product_info": "Created with Gamemaker",
