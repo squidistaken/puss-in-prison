@@ -93,7 +93,6 @@ switch global.playerControl
 		}
 	}
 
-	show_debug_message(mask_index);
 	switch global.carryingP2
 	{
 		case true:
