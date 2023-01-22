@@ -13,7 +13,18 @@ function scr_loseRestart()
 {
 	if (room == rm_puzzle04)
 	{
-		room_goto(rm_ending02);
+		switch global.whoGotCaught
+		{
+			case "plr1":
+				room_goto(rm_ending01);
+				break
+			case "plr2":
+				room_goto(rm_ending02);
+				break
+			case "both":
+				room_goto(rm_ending03);
+				break
+		}
 	}
 	else
 	{
