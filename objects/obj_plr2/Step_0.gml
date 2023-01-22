@@ -149,7 +149,7 @@ switch global.playerControl
 			if (place_meeting(x,y+verticalSpeed,obj_wall))
 			{
 				image_speed = 1;
-				plrState = plr2State.idle;
+				plrState = plr1State.idle;
 			}
 			break
 		case plr2State.action:
