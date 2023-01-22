@@ -18,6 +18,9 @@ switch room
 		sprite_index = spr_switch_floor;
 		switchesNeeded = 1;
 		break
+	case rm_puzzle04:
+		switchesNeeded = 1;
+		break
 	case rm_graybox:
 		switchesNeeded = 2;
 		break

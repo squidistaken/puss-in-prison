@@ -11,13 +11,39 @@ function scr_playSeq(_sequence)
 
 function scr_loseRestart()
 {
-	room_restart();
-	global.playerControl = true;
+	if (room == rm_puzzle04)
+	{
+		switch global.whoGotCaught
+		{
+			case "plr1":
+				room_goto(rm_ending01);
+				break
+			case "plr2":
+				room_goto(rm_ending02);
+				break
+			case "both":
+				room_goto(rm_ending03);
+				break
+		}
+	}
+	else
+	{
+		if global.loseCount <= 3
+		{
+			room_restart();
+			global.loseCount = global.loseCount + 1; 
+			global.playerControl = true;
+		}
+		if global.loseCount >= 3
+		{
+			room_goto(rm_ending03);
+		}
+	}
 } 
 
 function scr_startGame()
 {
-	// change this for final
 	room_goto(rm_puzzle00);
+	global.loseCount = 0;
 	global.playerControl = true;	
 }

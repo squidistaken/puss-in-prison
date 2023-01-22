@@ -14,4 +14,8 @@ switch room
 	case rm_puzzle02:
 		image_index = 4;
 		break
+	case rm_puzzle04:
+		// Defining how we want the sprite to look
+		image_index = 2;
+		break
 }
