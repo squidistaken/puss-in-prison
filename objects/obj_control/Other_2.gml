@@ -1,5 +1,6 @@
 /// @description Game Setup
 global.playerControl = true;
+global.loseCount = 0;
 
 // There was a bug for sequences where audio was one direction only, this fixes it!
 audio_listener_position(window_get_width()/2, window_get_height()/2, 0);

@@ -1,7 +1,7 @@
 /// @description Unlocking doors
 
-// Checking to see if either player is colliding with the door
-if (place_meeting(x-obj_plr2.horizontalSpeed,y,obj_plr2)) || (place_meeting(x-obj_plr1.horizontalSpeed,y,obj_plr1))
+// Checking to see if a player is colliding with the door
+if (place_meeting(x-obj_plr1.horizontalSpeed,y,obj_plr1))
 {
 	// Checking to see if someone is carrying something
 	if (obj_plr1.itemCarrying != noone)
@@ -17,6 +17,10 @@ if (place_meeting(x-obj_plr2.horizontalSpeed,y,obj_plr2)) || (place_meeting(x-ob
 			audio_play_sound(sfx_switch_on,10000,0);
 		}
 	}
+}
+
+if (place_meeting(x-obj_plr2.horizontalSpeed,y,obj_plr2))
+{
 	if (obj_plr2.itemCarrying != noone)
 	{
 		if obj_plr2.itemCarrying.itemType == "key"
