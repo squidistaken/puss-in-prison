@@ -112,6 +112,7 @@
     {"id":{"name":"spr_plr2_jump_right","path":"sprites/spr_plr2_jump_right/spr_plr2_jump_right.yy",},"order":10,},
     {"id":{"name":"spr_plr2_spin","path":"sprites/spr_plr2_spin/spr_plr2_spin.yy",},"order":0,},
     {"id":{"name":"backstory15","path":"sprites/backstory15/backstory15.yy",},"order":0,},
+    {"id":{"name":"spr_caught","path":"sprites/spr_caught/spr_caught.yy",},"order":6,},
     {"id":{"name":"spr_switch_wall","path":"sprites/spr_switch_wall/spr_switch_wall.yy",},"order":4,},
     {"id":{"name":"obj_bridge_switch_123","path":"objects/obj_bridge_switch_123/obj_bridge_switch_123.yy",},"order":11,},
     {"id":{"name":"spr_bars","path":"sprites/spr_bars/spr_bars.yy",},"order":10,},
@@ -141,6 +142,7 @@
     {"id":{"name":"obj_cameraLeftLimit","path":"objects/obj_cameraLeftLimit/obj_cameraLeftLimit.yy",},"order":0,},
     {"id":{"name":"tileset_main","path":"sprites/tileset_main/tileset_main.yy",},"order":0,},
     {"id":{"name":"obj_carryItem2","path":"objects/obj_carryItem2/obj_carryItem2.yy",},"order":2,},
+    {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},"order":14,},
     {"id":{"name":"scr_seqControl","path":"scripts/scr_seqControl/scr_seqControl.yy",},"order":1,},
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},"order":8,},
     {"id":{"name":"rm_puzzle02","path":"rooms/rm_puzzle02/rm_puzzle02.yy",},"order":3,},
@@ -196,16 +198,16 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"groupName":"Menus","children":[
-        {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
-        {"roomId":{"name":"rm_controls","path":"rooms/rm_controls/rm_controls.yy",},},
-      ],},
     {"groupName":"Puzzle Rooms","children":[
+        {"roomId":{"name":"rm_puzzle03","path":"rooms/rm_puzzle03/rm_puzzle03.yy",},},
         {"roomId":{"name":"rm_puzzle00","path":"rooms/rm_puzzle00/rm_puzzle00.yy",},},
         {"roomId":{"name":"rm_puzzle01","path":"rooms/rm_puzzle01/rm_puzzle01.yy",},},
         {"roomId":{"name":"rm_puzzle02","path":"rooms/rm_puzzle02/rm_puzzle02.yy",},},
-        {"roomId":{"name":"rm_puzzle03","path":"rooms/rm_puzzle03/rm_puzzle03.yy",},},
         {"roomId":{"name":"rm_puzzle04","path":"rooms/rm_puzzle04/rm_puzzle04.yy",},},
+      ],},
+    {"groupName":"Menus","children":[
+        {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
+        {"roomId":{"name":"rm_controls","path":"rooms/rm_controls/rm_controls.yy",},},
       ],},
     {"groupName":"Endings","children":[
         {"roomId":{"name":"rm_ending00","path":"rooms/rm_ending00/rm_ending00.yy",},},

@@ -7,5 +7,5 @@ event_inherited();
 // Activate button function
 activate_button = function()
 {
-	room_goto(rm_title);
+	room_goto(rm_puzzle00);
 }
