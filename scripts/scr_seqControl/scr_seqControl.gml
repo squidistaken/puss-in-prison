@@ -28,7 +28,9 @@ function scr_loseRestart()
 	}
 	else
 	{
-		if global.loseCount <= 3
+		global.playerControl = true;
+		room_restart();
+		/* if global.loseCount <= 3
 		{
 			room_restart();
 			global.loseCount = global.loseCount + 1; 
@@ -37,7 +39,7 @@ function scr_loseRestart()
 		if global.loseCount >= 3
 		{
 			room_goto(rm_ending03);
-		}
+		}*/
 	}
 } 
 
