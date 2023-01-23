@@ -216,12 +216,12 @@
     {"groupName":"Endings","children":[
         {"roomId":{"name":"rm_ending00","path":"rooms/rm_ending00/rm_ending00.yy",},},
         {"roomId":{"name":"rm_ending01","path":"rooms/rm_ending01/rm_ending01.yy",},},
+        {"roomId":{"name":"rm_ending01_2","path":"rooms/rm_ending01_2/rm_ending01_2.yy",},},
         {"roomId":{"name":"rm_ending02","path":"rooms/rm_ending02/rm_ending02.yy",},},
+        {"roomId":{"name":"rm_ending02_2","path":"rooms/rm_ending02_2/rm_ending02_2.yy",},},
         {"roomId":{"name":"rm_ending03","path":"rooms/rm_ending03/rm_ending03.yy",},},
       ],},
     {"roomId":{"name":"rm_graybox","path":"rooms/rm_graybox/rm_graybox.yy",},},
-    {"roomId":{"name":"rm_ending02_2","path":"rooms/rm_ending02_2/rm_ending02_2.yy",},},
-    {"roomId":{"name":"rm_ending01_2","path":"rooms/rm_ending01_2/rm_ending01_2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
